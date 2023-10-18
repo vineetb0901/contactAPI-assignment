@@ -4,14 +4,16 @@ const generateHeaders = require('../../utils/generateHeaders');
 const baseUrl = 'https://thinking-tester-contact-list.herokuapp.com';
 const addContact = require('../../utils/addContact.utils');
 const getNewUserData = require('../../utils/getNewUser.utils');
+const createNewUserToken = require('../../utils/createNewUserToken.utils');
 
 describe('Delete contact test', () => {
     let token
     let contactId
     before('create a dummy user and add some contacts', async() => {
         try {
-            const response = await axios.post(`${baseUrl}/users`, getNewUserData())
+            const response = await createNewUserToken()
             token = response.data.token
+            await axios.post(`${baseUrl}/contacts`, addContact(), generateHeaders(token))
             const res = await axios.post(`${baseUrl}/contacts`, addContact(), generateHeaders(token))
             contactId = res.data._id
         } catch (error) {
