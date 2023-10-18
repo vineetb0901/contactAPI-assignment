@@ -1,0 +1,13 @@
+{
+    "firstName": "Vineet",
+    "lastName": "Bhat",
+    "birthdate": "2001-01-09",
+    "email": "vineetbhat@gmail.com",
+    "phone": "8105222603",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Sirsi",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "IND"
+}
