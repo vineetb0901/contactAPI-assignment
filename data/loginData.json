@@ -1,0 +1,31 @@
+{
+    "successFull": {
+        "data":{
+            "firstName":"supertest",
+            "lastName":"bhat"
+        },
+        "credentials":{
+            "email": "supertestbhat@vineet.com",
+            "password": "bhat@123"
+        }
+    },
+
+    "failedLogin":{
+        "credentials":{
+            "email":"supertestbhat@vineet.com",
+            "password":"bhatta@123"
+        }
+    },
+
+    "successResponse":{
+        "status":200,
+        "statusText":""
+    },
+    "failureResponse":{
+        "status":401,
+        "statusText":"Unauthorized"
+    },
+
+    "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJjY2ZjYjUzNzdiYjAwMTMxZjQxZmUiLCJpYXQiOjE2OTc0MzU5MDR9.Oh56JJ9GikBG9YzA8RzxxBL-1lSl1EKn2MrTToJKOm4"
+
+}

@@ -1,0 +1,9 @@
+{
+    "payload":{
+        "firstName": "vineet",
+        "lastName": "Bhat",
+        "email": "supertestbhat@vineet.com",
+        "password": "bhat@123"
+    },
+    "message":"Email address is already in use"
+}

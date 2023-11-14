@@ -1,0 +1,16 @@
+{
+    "_id": "652e5f68fde4e500139b9986",
+    "firstName": "Vineet",
+    "lastName": "Bhat",
+    "birthdate": "2001-01-09",
+    "email": "vineetbhat@gmail.com",
+    "phone": "8005555555",
+    "street1": "1 Main St.",
+    "street2": "Apartment A",
+    "city": "Anytown",
+    "stateProvince": "KS",
+    "postalCode": "12345",
+    "country": "IND",
+    "owner": "652ccfcb5377bb00131f41fe",
+    "__v": 0
+}
